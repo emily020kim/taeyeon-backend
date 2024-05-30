@@ -102,7 +102,9 @@ app.get("/albums", (req, res) => {
 app.get("/i_tracklist", (req, res) => {
     res.json(
         {
-            songs: "I (feat. Verbal Jint), U R, Gemini, Stress, Farewell, I (Inst.)"
+            songs: [
+                "I (feat. Verbal Jint)", "U R", "Gemini", "Stress", "Farewell", "I (Inst.)"
+            ]
         }
     )
 })
@@ -110,7 +112,9 @@ app.get("/i_tracklist", (req, res) => {
 app.get("/why_tracklist", (req, res) => {
     res.json(
         {
-            songs: "Why, Starlight (feat. DEAN), Fashion, Hands On Me, Up & Down (feat. Hyoyeon), Good Thing, Night"
+            songs: [
+                "Why", "Starlight (feat. DEAN)", "Fashion", "Hands On Me", "Up & Down (feat. Hyoyeon)", "Good Thing, Night"
+            ]
         }
     )
 })
@@ -118,7 +122,9 @@ app.get("/why_tracklist", (req, res) => {
 app.get("/myvoice_tracklist", (req, res) => {
     res.json(
         {
-            songs: "Fine, Cover Up, Feel So Fine, I Got Love, I'm OK, Time Lapse, Sweet Love, When I Was Young, Lonely Night, Love in Color, Fire, Eraser, Time Spent Walking Through Memories"
+            songs: [
+                "Fine", "Cover Up", "Feel So Fine", "I Got Love", "I'm OK", "Time Lapse", "Sweet Love", "When I Was Young", "Lonely Night", "Love in Color", "Fire", "Eraser", "Time Spent Walking Through Memories"
+            ]
         }
     )
 })
@@ -126,7 +132,9 @@ app.get("/myvoice_tracklist", (req, res) => {
 app.get("/christmas_tracklist", (req, res) => {
     res.json(
         {
-            songs: "The Magic of Christmas Time, This Christmas, Let It Snow, Candy Cane, Christmas Without You, Shhhh, I'm All Ears, This Christmas (Inst.)"
+            songs: [
+                "The Magic of Christmas Time", "This Christmas", "Let It Snow", "Candy Cane", "Christmas Without You", "Shhhh", "I'm All Ears", "This Christmas (Inst.)"
+            ]
         }
     )
 })
@@ -134,7 +142,9 @@ app.get("/christmas_tracklist", (req, res) => {
 app.get("/somethingnew_tracklist", (req, res) => {
     res.json(
         {
-            songs: "Something New, All Night Long (feat. Lucas of NCT), Baram x3, One Day, Circus, Something New (Inst.)"
+            songs: [
+                "Something New", "All Night Long (feat. Lucas of NCT)", "Baram x3", "One Day", "Circus", "Something New (Inst.)"
+            ]
         }
     )
 })
@@ -142,7 +152,9 @@ app.get("/somethingnew_tracklist", (req, res) => {
 app.get("/voice_tracklist", (req, res) => {
     res.json(
         {
-            songs: "VOICE, I Found You, HORIZON, Vanilla, TURNT AND BURNT, SIGNAL"
+            songs: [
+                "VOICE", "I Found You", "HORIZON", "Vanilla", "TURNT AND BURNT", "SIGNAL"
+            ]
         }
     )
 })
@@ -150,7 +162,9 @@ app.get("/voice_tracklist", (req, res) => {
 app.get("/purpose_tracklist", (req, res) => {
     res.json(
         {
-            songs: "Here I Am, Spark, Find Me, Love You Like Crazy, LOL, Better Babe, Wine, Do You Love Me?, City Love, Gravity, Blue, Four Seasons"
+            songs: [
+                "Here I Am", "Spark", "Find Me", "Love You Like Crazy", "LOL", "Better Babe", "Wine", "Do You Love Me?", "City Love", "Gravity", "Blue", "Four Seasons"
+            ]
         }
     )
 })
@@ -158,7 +172,9 @@ app.get("/purpose_tracklist", (req, res) => {
 app.get("/girlsspkout_tracklist", (req, res) => {
     res.json(
         {
-            songs: "#GirlsSpkOut (feat. CHANMINA), Worry Free Love, Be Real, I Do"
+            songs: [
+                "#GirlsSpkOut (feat. CHANMINA)", "Worry Free Love", "Be Real", "I Do"
+            ]
         }
     )
 })
@@ -166,7 +182,9 @@ app.get("/girlsspkout_tracklist", (req, res) => {
 app.get("/wdicy_tracklist", (req, res) => {
     res.json(
         {
-            songs: "What Do I Call You, Playlist, To the moon, Wildfire, Galaxy, Happy"
+            songs: [
+                "What Do I Call You", "Playlist", "To the moon", "Wildfire", "Galaxy", "Happy"
+            ]
         }
     )
 })
@@ -174,7 +192,9 @@ app.get("/wdicy_tracklist", (req, res) => {
 app.get("/invu_tracklist", (req, res) => {
     res.json(
         {
-            songs: "INVU, Some Nights, Can't Control Myself, Set Myself On Fire, Toddler, Siren, Cold As Hell, Timeless, Heart, No Love Again, You Better Not, Weekend, Ending Credits"
+            songs: [
+                "INVU", "Some Nights", "Can't Control Myself", "Set Myself On Fire", "Toddler", "Siren", "Cold As Hell", "Timeless", "Heart", "No Love Again", "You Better Not", "Weekend", "Ending Credits"
+            ]
         }
     )
 })
