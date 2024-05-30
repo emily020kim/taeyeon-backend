@@ -182,8 +182,70 @@ app.get("/invu_tracklist", (req, res) => {
 app.get("/tox_tracklist", (req, res) => {
     res.json(
         {
-            songs: "To, X, Melt Away, Burn It Down, Nightmare, All For Nothing, Fabulous"
+            songs: [
+                "To", "X", "Melt Away", "Burn It Down", "Nightmare", "All For Nothing", "Fabulous"
+            ]
         }
+    )
+})
+
+/** 34 music show wins */
+app.get("/awards", (req, res) => {
+    res.json(
+        [
+            {
+                type: "Circle Chart Music Awards",
+                awards: [
+                    "Song of the Year - October (2016)",
+                    "Mobile Vote Popularity Award (2018)",
+                    "Artist of the Year Digital Music - March (2020)",
+                    "Artist of the Year Digital Music - December (2022)",
+                    "Artist of the Year Digital Music - February (2023)",
+                ]
+            },
+            {
+                type: "Genie Music Awards",
+                awards: "Best Female Solo Artist (2022)"
+            },
+            {
+                type: "Golden Disc Awards",
+                awards: [
+                    "Popularity Award (2008)",
+                    "Digital Bonsang (2016)",
+                    "iQiyi Best Female Artist (2016)",
+                    "Digital Bonsang (2017)",
+                    "Disc Bonsang (2018)",
+                    "Digital Bonsang (2020)",
+                ]
+            },
+            {
+                type: "MAMA Awards",
+                awards: [
+                    "Best Female Artist (2015)",
+                    "Best Female Artist (2016)",
+                    "Best Vocal Performance - Solo (2019)",
+                    "Best Vocal Performance - Solo (2022)",
+                ]
+            },
+            {
+                type: "Melon Music Awards",
+                awards: [
+                    "Top 10 Artist (2016)",
+                    "Best Ballad (2019)",
+                    "Top 10 Artist (2019)",
+                ]
+            },
+            {
+                type: "Seoul Music Awards",
+                awards: [
+                    "Bonsang Award (2016)",
+                    "Bonsang Award (2017)",
+                    "Bonsang Award (2020)",
+                    "Digital Daesang (2020)",
+                    "Bonsang Award (2023)",
+                ]
+            },
+        ]
     )
 })
 
